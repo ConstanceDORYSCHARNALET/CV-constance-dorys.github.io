@@ -53,12 +53,10 @@ footer p{
     color: rgb(0, 0, 0);
     text-align: center;
     background-color: rgb(255, 194, 194);
-    font-weight: bold
 }
 footer a{
     color: rgb(0, 0, 0);
     background-color: rgb(255, 194, 194);
-    font-weight: bold
 }
 
 /*SECTIONS*/
@@ -293,7 +291,8 @@ section > div{
         box-shadow: 0px 0px 10px #bbb;
     }
     a:hover{
-        color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        font-weight: bold
     }
     header h1{
         width: 80%;
