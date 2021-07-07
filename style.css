@@ -1,13 +1,13 @@
 /*STYLES GENERAUX*/
 *{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 0px;
     margin: 0px;
     text-align: justify;
     box-sizing: border-box;
 }
 body{
-    background: #ededed;
+    background: #f1e1e1;
 }
 p{
     font-size: 1em;
@@ -45,18 +45,20 @@ header h1{
 }
 
 footer{
-    border-top: 2px solid #fff;
+    border-top: 2px solid RGB(255, 194, 194);
 }
 footer p{
     width: 90%;
     margin: 0 auto;
     color: rgb(0, 0, 0);
     text-align: center;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 194, 194);
+    font-weight: bold
 }
 footer a{
     color: rgb(0, 0, 0);
-    background-color: rgb(253, 253, 253);
+    background-color: rgb(255, 194, 194);
+    font-weight: bold
 }
 
 /*SECTIONS*/
@@ -79,6 +81,18 @@ section h2{
 }
 section > div{
     width: 90%;
+}
+/*SECTION MENU*/
+.menu a{
+    display:inline-table;
+    text-align:center;
+
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 203, 203);
+    font-weight: bold
 }
 
 /*SECTION INFOS*/
@@ -272,22 +286,22 @@ section > div{
     box-shadow: 0px 0px 15px #555;
 }
 
-/*VERSION BUREAU DU CV*/
+/*CV*/
 @media screen and (min-width: 980px){
     section{
         width: 80%;
         box-shadow: 0px 0px 10px #bbb;
     }
     a:hover{
-        color: #EA0;
+        color: rgb(255, 255, 255);
     }
     header h1{
         width: 80%;
     }
+
     
     .présentation{
         border-bottom: none;
-        border-right: 2px solid #ccc;
         padding-right: 10px;
         margin-left:initial;
     }
