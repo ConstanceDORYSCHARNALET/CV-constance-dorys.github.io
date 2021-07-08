@@ -90,7 +90,7 @@ section > div{
     margin-right: auto;
     color: rgb(0, 0, 0);
     background-color: rgb(255, 203, 203);
-    font-weight: bold
+
 }
 
 /*SECTION INFOS*/
@@ -138,6 +138,7 @@ section > div{
 .coordonnees p:last-child{
     flex: 0 0 60%;
 }
+
 .social{
     display: flex;
     justify-content: space-around;
